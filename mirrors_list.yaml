@@ -49,11 +49,23 @@ mirrors:
       - npm
       - Node.js
 
-  - name: HamDocker
-    url: https://hub.hamdocker.ir
-    description: Docker registry without sanctions.
+  - name: Hamravesh
+    url: https://hamravesh.com/blog/container-registry-mirroring-and-caching/
+    description: Hamravesh package mirror and HamDocker cache registries.
     packages:
       - Docker Registry
+      - Microsoft Registry
+      - Google Registry
+      - Quay Registry
+      - Elastic Registry
+      - npm
+      - PyPI
+      - Go
+      - NuGet
+      - Maven
+      - Alpine
+      - Debian
+      - Ubuntu
 
   - name: IUT (Isfahan University of Technology)
     url: https://repo.iut.ac.ir
@@ -326,3 +338,9 @@ mirrors:
       - Fedora
       - Rocky
       - Oracle Linux
+
+  - name: Maven Hub
+    url: https://mvnhub.ir
+    description: Iranian proxy for Maven Central.
+    packages:
+      - Maven Central
