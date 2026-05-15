@@ -344,3 +344,10 @@ mirrors:
     description: Iranian proxy for Maven Central.
     packages:
       - Maven Central
+
+  - name: PubYar
+    url: https://pub.pubyar.ir
+    description: Smart read-only Dart Pub and Flutter package mirror/CDN for Iranian developers.
+    packages:
+      - Dart Pub
+      - Flutter packages
